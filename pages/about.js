@@ -8,10 +8,7 @@ export default function About() {
         <div className={styles.about}>
             <h1>Sobre o projeto</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In repellat
-                impedit neque et sapiente ipsam laboriosam adipisci illum. Iure
-                voluptate itaque culpa minus ipsa architecto dolorum! Dignissimos
-                recusandae ea aperiam?
+                Parte prática do curso de Next.js                
             </p>
             <Image
                 src='/images/Pikachu.png'

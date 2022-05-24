@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 
 import styles from '../../styles/Pokemon.module.css'
 
+import Loading from '../../components/Loading'
+
 export const getStaticPaths = async () => {
 
     const maxPokemons = 251
@@ -44,7 +46,7 @@ export default function Pokemon({pokemon}) {
     const router = useRouter()
 
     if(router.isFallback) {
-        return <div>Carregando...</div>
+        return <Loading/>
     }
 
     return (

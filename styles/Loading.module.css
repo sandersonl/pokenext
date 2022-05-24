@@ -1,0 +1,25 @@
+.loading {
+    animation: is-rotating 1s infinite;
+    border: 8px solid #333;
+    border-radius: 50%;
+    border-top-color: #e33d33;
+    height: 80px;
+    width: 80px;
+}
+
+@keyframes is-rotating {
+    to {
+    	transform: rotate(1turn);
+    }
+}
+
+.loading_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loading_container h1 {
+	margin-bottom: 1.4em;
+}
